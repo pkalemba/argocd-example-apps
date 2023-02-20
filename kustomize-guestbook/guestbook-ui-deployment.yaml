@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: {{ IMAGE }}
+      - image: '{{ IMAGE }}'
         name: guestbook-ui
         ports:
         - containerPort: 80
